@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class PokemonService {
-    
+
     private  final PokemonRepository pokemonRepository;
 
     public List<Pokemon> getAllPokemon(){

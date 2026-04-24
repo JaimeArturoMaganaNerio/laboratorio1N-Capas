@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -14,6 +16,7 @@ public class Pokemon {
 
     private String nombre;
     private String tipo;
+    private List<String> debilidades;
     private String zona;
     private String region;
 
