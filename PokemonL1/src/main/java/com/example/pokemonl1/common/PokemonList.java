@@ -11,7 +11,7 @@ public class PokemonList {
 
     private final List<Pokemon> pokemon;
 
-    public PokemonListList() {
+    public PokemonList() {
         this.pokemon = new ArrayList<>();
 
         this.pokemon.add(Pokemon.builder()
